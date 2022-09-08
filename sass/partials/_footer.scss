@@ -1,0 +1,15 @@
+footer {
+    display: flex;
+    width: auto;
+    height: 100px;
+    margin-top: $espacio-grande;
+    background-color: $primario;
+    justify-content: center;
+
+        .final {
+            color: $secundario;
+            display: flex;
+            align-items: center;
+            font-size: $texto-medio;
+    }
+}

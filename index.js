@@ -1,5 +1,6 @@
 
 
+
 function inicio () {
     alert ("Bienvenidos a nwwPC. Importamos Netbook al mejor precio!");
     let usuario = prompt ("Ingresa tu nombre:");
@@ -50,10 +51,26 @@ function pagar (cantidad, costo) {
     }
 
 
-
-
-inicio();
-let cantidad =  productos();
-let valor = costo (cantidad);
-pagar (cantidad,valor); 
-
+    const netbooks = [
+        {id: 1 , marca:"bangho", modelo:"estudiante", caracteristica:"Max L4 i1 gris oscura 14"+","+ "Intel Celeron N4000 4GB de RAM 120GB SSD, Intel UHD Graphics 600 1366x768px Windows 10 Home" },
+        {id: 2 , marca: "dell" , modelo: "diseño"   ,caracteristica:"Inspiron 15 4580 I5 Win11 256ssd 8g Ram gtx 1650" },
+        {id: 3 , marca:"asus" , modelo:   "gamer"  ,caracteristica: "Tuf Core I7 16gb Ssd 512gb Rtx 3060" ,}];
+        
+        
+        function filtraNetbook (netbooks, filtro) {
+            const filtrado = netbooks.filter((el)=> {
+                return el.marca.includes(filtro); 
+            });
+            return filtrado;
+        }
+        let ingreso = prompt("Antes de empesar? tenes experiensa en hadware pc? Queres sabes mas detalle de los equipos que tenemos 💻😋? Escribe la marca de los productos publicados y lo veras reflejado por consola 😎");
+        
+        const resultado = filtraNetbook (netbooks,ingreso);
+        
+        console.log(resultado);
+        
+        
+        inicio();
+        let cantidad =  productos();
+        let valor = costo (cantidad);
+        pagar (cantidad,valor); 

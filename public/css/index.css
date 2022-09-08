@@ -16,12 +16,58 @@ img {
 ul {
   list-style-type: none; }
 
+img {
+  width: 100%; }
+
 /* VARIABLES */
 /* colors */
 /* spacings */
 /* font-family */
 /* font-sizes */
 /* PARTIALS */
+header {
+  width: auto;
+  height: 170px;
+  gap: 6rem;
+  background-color: #5564EB;
+  display: flex;
+  margin-top: auto;
+  margin-left: auto;
+  justify-content: space-evenly;
+  align-items: center; }
+  header .logo {
+    display: flex;
+    height: 150px;
+    width: 200px;
+    margin: 1rem; }
+  header .navegador {
+    display: flex; }
+    header .navegador .menu {
+      display: flex; }
+      header .navegador .menu .nav_item {
+        height: auto;
+        width: 120px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 2.4em; }
+        header .navegador .menu .nav_item a {
+          text-decoration: none;
+          color: #E3E4E5;
+          font-family: "Roboto" Condensed; }
+
+footer {
+  display: flex;
+  width: auto;
+  height: 100px;
+  margin-top: 6rem;
+  background-color: #5564EB;
+  justify-content: center; }
+  footer .final {
+    color: #E3E4E5;
+    display: flex;
+    align-items: center;
+    font-size: 2.4em; }
+
 /* VIEWS */
 main {
   max-width: 1200px;
@@ -29,6 +75,31 @@ main {
   margin-top: 2rem; }
 
 /* CARDS */
+.presentacion {
+  display: flex;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  align-items: center; }
+  .presentacion .imgMain {
+    padding: 2.4rem;
+    display: flex;
+    flex: 1 1 50%; }
+  .presentacion .texto {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 2.4rem;
+    gap: 2.4rem; }
+    .presentacion .texto .texto_titulo {
+      font-family: "Roboto" Condensed;
+      font-size: 5.2em; }
+    .presentacion .texto .texto_descripcion {
+      font-family: "Roboto";
+      font-size: 2.4em; }
+    .presentacion .texto .texto_boton {
+      font-size: 2.4em;
+      font-family: "Roboto" Condensed; }
+
 .cards {
   display: flex;
   flex-direction: row;

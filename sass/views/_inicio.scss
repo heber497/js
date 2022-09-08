@@ -6,6 +6,53 @@ main{
 }
 /* CARDS */
 
+.presentacion{
+  display: flex;
+  margin-top: $espacio-grande;
+  margin-bottom:$espacio-grande;
+  align-items: center;
+
+  .imgMain{
+   padding: $espacio-medio;
+   display: flex;
+   flex: 1 1 50%;
+
+   }
+
+  .texto{
+    flex:1 1 50%;
+    display: flex;
+    flex-direction: column;
+    padding: $espacio-medio;
+    gap: $espacio-medio;
+
+    .texto_titulo{
+      font-family: $titulo;
+      font-size: $texto-grande;
+    }
+
+    .texto_descripcion{
+      font-family: $texto;
+      font-size: $texto-medio;
+
+    }
+    .texto_boton{
+      font-size: $texto-medio;
+      font-family: $titulo;
+
+    }  
+  }
+
+} 
+
+
+
+
+
+
+
+
+
  .cards{
     display: flex;
     flex-direction: row;

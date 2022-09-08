@@ -1,0 +1,52 @@
+
+
+header {
+    width:auto;
+    height: 170px;
+    gap:$espacio-grande;
+    background-color:$primario;
+    display: flex;
+    margin-top: auto;
+    margin-left: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    .logo{
+        display: flex;
+        height:150px;
+        width: 200px;
+        margin:$espacio-xpequenio;
+        }
+        
+        .navegador {
+            display: flex;
+            
+
+           
+        
+                .menu{
+                    display: flex; 
+            
+                  .nav_item{
+                    height: auto;
+                    width: 120px;
+                    display: flex;
+                    justify-content: space-between;
+                    font-size:$texto-medio;
+                    
+                   
+                    a {
+                       text-decoration: none;
+                       color: $secundario;
+                       font-family:$titulo;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+ 
