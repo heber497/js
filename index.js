@@ -62,23 +62,64 @@ let cantidad = productos();
 let valor = costo(cantidad);
 pagar(cantidad, valor);
 
-// const boton = document.querySelector("#boton");
-// const texto = document.querySelector("p");
+const verMasEstudiante = document.querySelector("#verMasEstudiante");
+const textoEstudiante = document.querySelector("p");
 
-// boton.addEventListener("click", () => {
-//   if (texto.classList.contains("caracteristicas")) {
-//     texto.classList.remove("caracteristicas");
-//   } else {
-//     texto.classList.add("caracteristicas");
-//   }
-// });
+verMasEstudiante.addEventListener("click", () => {
+  if (textoEstudiante.classList.contains("caracteristicas")) {
+    textoEstudiante.classList.remove("caracteristicas");
+  } else {
+    textoEstudiante.classList.add("caracteristicas");
+  }
+});
+
+const verMasDisenio = document.querySelector("#verMasDisenio");
+const textoDisenio = document.getElementById("textoDisenio");
+
+verMasDisenio.addEventListener("click", () => {
+  if (textoDisenio.classList.contains("caracteristicas")) {
+    textoDisenio.classList.remove("caracteristicas");
+  } else {
+    textoDisenio.classList.add("caracteristicas");
+  }
+});
+
+const verMasGamer = document.querySelector("#verMasGamer");
+const textoGamer = document.getElementById("textoGamer");
+
+verMasGamer.addEventListener("click", () => {
+  if (textoGamer.classList.contains("caracteristicas")) {
+    textoGamer.classList.remove("caracteristicas");
+  } else {
+    textoGamer.classList.add("caracteristicas");
+  }
+});
+
+console.log(verMasGamer);
+
+verMasGamer.addEventListener("click", () => {});
 
 let final = document.getElementById("producto");
 final.innerHTML =
-  "<h2> gracias por tu compra espero que difrute su netbook modelo<h2>" +
+  "<h2> gracias por tu compra espero que difrutes tu netbook modelo:<h2>" +
+  " " +
   cantidad;
 
-// document.body.appendChild(final);
+document.body.appendChild(final);
+
+// function filtraNetbook(netbooks, filtro) {
+//   const filtrado = netbooks.filter((el) => {
+//     return el.marca.includes(filtro);
+//   });
+//   return filtrado;
+// }
+// let ingreso = prompt(
+//   "Antes de empesar? tenes experiensa en hadware pc? Queres sabes mas detalle de los equipos que tenemos 💻😋? Escribe la marca de los productos publicados y lo veras reflejado por consola 😎"
+// );
+
+// const resultado = filtraNetbook(netbooks, ingreso);
+
+// console.log(resultado);
 
 // const netbooks = [
 //   {
@@ -103,17 +144,13 @@ final.innerHTML =
 //     caracteristica: "Tuf Core I7 16gb Ssd 512gb Rtx 3060",
 //   },
 // ];
-
-// function filtraNetbook(netbooks, filtro) {
-//   const filtrado = netbooks.filter((el) => {
-//     return el.marca.includes(filtro);
-//   });
-//   return filtrado;
+// function inicio() {
+//   alert("Bienvenidos a nwwPC. Importamos Netbook al mejor precio!");
+//   let usuario = prompt("Ingresa tu nombre:");
+//   alert(
+//     "Hola " +
+//       usuario +
+//       " " +
+//       "Mira la lista de los nuevos ingresos de este mes."
+//   );
 // }
-// let ingreso = prompt(
-//   "Antes de empesar? tenes experiensa en hadware pc? Queres sabes mas detalle de los equipos que tenemos 💻😋? Escribe la marca de los productos publicados y lo veras reflejado por consola 😎"
-// );
-
-// const resultado = filtraNetbook(netbooks, ingreso);
-
-// console.log(resultado);

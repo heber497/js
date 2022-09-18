@@ -66,9 +66,13 @@ main {
         color: $color-texto;
       }
       .caracteristicas {
-        font-family: $texto;
-        font-size: $texto-base;
+        display: none;
       }
     }
   }
+}
+#producto {
+  display: flex;
+  font-size: $texto-medio;
+  justify-content: center;
 }

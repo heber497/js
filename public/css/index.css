@@ -122,5 +122,9 @@ main {
         font-size: 2.4em;
         color: #0C0B0B; }
       .cards .box .box__info .caracteristicas {
-        font-family: "Roboto";
-        font-size: 1.6em; }
+        display: none; }
+
+#producto {
+  display: flex;
+  font-size: 2.4em;
+  justify-content: center; }
