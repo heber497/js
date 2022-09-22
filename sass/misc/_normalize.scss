@@ -1,22 +1,25 @@
 /* Normalize */
 *,
 *::before,
-*::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
-html{
-    font-size:62.5%;}
- 
+html {
+  font-size: 62.5%;
+}
+
 img {
-    width: 100%;
+  width: 100%;
 }
 
-ul{
-    list-style-type: none;
-} 
+ul {
+  list-style-type: none;
+}
 
-img{
-   width: 100%; 
+img {
+  width: 100%;
 }
