@@ -1,106 +1,111 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-   <link rel="stylesheet" href="/public/css/index.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../public/css/index.css" />
 
     <title>Ventas</title>
-</head>
-<body>
-       <header>
-            <picture class="logo">
-            <img class="logo_contenedor" src="/public/img/logo oficial.png" alt="logo de NewHadware">
-         </picture>
-    <nav class="navegador">
-        <ul class="menu"> 
-            <li class="nav_item">
-                <a href="/index.html">Inicio</a>
-            </li>
-            <li class="nav_item"> 
-                <a href="./pages/ventas.html ">Ventas</a>
-            </li>
-            </li>
-            <li class="nav_item">
-                <a href="./pages/contacto.html">Contactos</a> 
+  </head>
+  <body>
+    <header>
+      <picture class="logo">
+        <img
+          class="logo_contenedor"
+          src="../public/img/logo oficial.png"
+          alt="logo de NewHadware"
+        />
+      </picture>
+      <nav class="navegador">
+        <ul class="menu">
+          <li class="nav_item">
+            <a href="../index.html">Inicio</a>
+          </li>
+          <li class="nav_item">
+            <a href="ventas.html ">Ventas</a>
+          </li>
+          <li class="nav_item">
+            <a href="contactos.html">Contactos</a>
+          </li>
         </ul>
-          
-            </nav>
-   
-            
-            
-            <div class="icono-carrito">
-                <a href="carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
-            </div>
-        </div> 
+      </nav>
+
+      <div class="icono-carrito">
+        <a href="carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
     </header>
     <!-- <div class="banner">
-        <span>
-            <p><i class="fa-solid fa-bolt"></i> Envio Gratis en compras desde $5000 - <i
-                    class="fa-solid fa-credit-card"></i> 6 cuotas sin interes <i class="fa-solid fa-bolt"></i></i></p>
-        </span>
+      <span>
+        <p>
+          <i class="fa-solid fa-bolt"></i> Envio Gratis en compras desde $5000 -
+          <i class="fa-solid fa-credit-card"></i> 6 cuotas sin interes
+          <i class="fa-solid fa-bolt"></i>
+        </p>
+      </span>
     </div>
     <div class="info">
-        <div class="bloque">
-            <div class="icono">
-                <i class="fa-solid fa-arrows-rotate"></i>
-            </div>
-            <div class="text">
-                <h4>Cambios y devoluciones</h4>
-                <p>Dentro de los primeros 30 dias</p>
-            </div>
+      <div class="bloque">
+        <div class="icono">
+          <i class="fa-solid fa-arrows-rotate"></i>
         </div>
-        <div class="bloque">
-            <div class="icono">
-                <i class="fa-solid fa-truck"></i>
-            </div>
-            <div class="text">
-                <h4>envios a todo el pais</h4>
-                <p>Entre 3 y 5 dias habiles</p>
-            </div>
+        <div class="text">
+          <h4>Cambios y devoluciones</h4>
+          <p>Dentro de los primeros 30 dias</p>
         </div>
-        <div class="bloque">
-            <div class="icono">
-                <i class="fa-solid fa-lock"></i>
-            </div>
-            <div class="text">
-                <h4>compra segura</h4>
-                <p>Protegemos tus datos</p>
-            </div>
+      </div>
+      <div class="bloque">
+        <div class="icono">
+          <i class="fa-solid fa-truck"></i>
         </div>
+        <div class="text">
+          <h4>envios a todo el pais</h4>
+          <p>Entre 3 y 5 dias habiles</p>
+        </div>
+      </div>
+      <div class="bloque">
+        <div class="icono">
+          <i class="fa-solid fa-lock"></i>
+        </div>
+        <div class="text">
+          <h4>compra segura</h4>
+          <p>Protegemos tus datos</p>
+        </div>
+      </div>
     </div> -->
 
     <section class="container">
-        <div class="productos row align-items-center">
-            <div id="tarjetas">
+      <div class="productos row align-items-center">
+        <div id="tarjetas"></div>
+      </div>
+    </section>
 
-            </div>
-            
-        </div>
-        </section>
+    <h2 class="text-center">Carrito</h2>
 
-        <h2 class="text-center">Carrito</h2><hr>
+    <hr />
 
-    <div id="carrito">
-            
+    <div id="carrito"></div>
 
-    </div>
-
-    
     <footer>
-      <h3 class="final">Trabajo de JavaScript en proceso </h3>
+      <h3 class="final">Trabajo de JavaScript en proceso</h3>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
-    </script>
-    <script src="/index.js"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../index.js"></script>
+  </body>
 </html>
