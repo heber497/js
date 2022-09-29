@@ -15,10 +15,16 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
     <link rel="stylesheet" href="../public/css/index.css" />
 
     <title>Ventas</title>
   </head>
+
   <body>
     <header>
       <picture class="logo">
@@ -43,10 +49,12 @@
       </nav>
 
       <div class="icono-carrito">
-        <a href="carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        <a href="../pages/carrito.html"
+          ><i class="fa-solid fa-cart-shopping"></i
+        ></a>
       </div>
     </header>
-    <!-- <div class="banner">
+    <div class="banner">
       <span>
         <p>
           <i class="fa-solid fa-bolt"></i> Envio Gratis en compras desde $5000 -
@@ -83,29 +91,33 @@
           <p>Protegemos tus datos</p>
         </div>
       </div>
-    </div> -->
-
+    </div>
     <section class="container">
       <div class="productos row align-items-center">
         <div id="tarjetas"></div>
       </div>
     </section>
-
     <h2 class="text-center">Carrito</h2>
-
     <hr />
+    <div class="container limpiarCarro">
+      <a id="vaciarCarrito" class="btn btn-danger">Vaciar Carrito</a>
+    </div>
+    <div id="carrito">
+      <footer>
+        <h3 class="final">Trabajo de JavaScript en proceso</h3>
+      </footer>
 
-    <div id="carrito"></div>
-
-    <footer>
-      <h3 class="final">Trabajo de JavaScript en proceso</h3>
-    </footer>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
-    <script src="../index.js"></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"
+      ></script>
+      <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script
+        type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/toastify-js"
+      ></script>
+      <script src="../index.js"></script>
+    </div>
   </body>
 </html>
