@@ -1,4 +1,4 @@
-fetch("/data.json")
+fetch("https://634728d3db76843976a77095.mockapi.io/articulos")
   .then((resp) => resp.json())
   .then((Catalogo) => {
     class Carrito {
