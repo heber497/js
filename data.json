@@ -1,0 +1,31 @@
+[
+  {
+    "nombre": "asus pro",
+    "calidad": "De Diseño",
+    "precio": 24000,
+    "imagen": "asus pro.png",
+    "id": "1"
+  },
+  {
+    "nombre": "asus tuf",
+    "calidad": "Generico",
+    "precio": 12000,
+    "imagen": "asus tuf.png",
+    "id": "2"
+  },
+  {
+    "nombre": "bangho",
+    "calidad": "De Diseño",
+    "precio": 15000,
+    "cantidad": 3,
+    "imagen": "bangho.png",
+    "id": "3"
+  },
+  {
+    "nombre": "dell",
+    "calidad": "Generico",
+    "precio": 10000,
+    "imagen": "dell.png",
+    "id": "4"
+  }
+]
