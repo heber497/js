@@ -27,7 +27,7 @@ fetch("https://634728d3db76843976a77095.mockapi.io/articulos")
     }
     function tarjetaCarro(producto) {
       let carroTarjeta = `
-
+ 
                         <hr><div class="tarjeta-carrito">
                             <div class="imagen">
                                 <img src="../public/img/${producto.imagen}" alt="">
