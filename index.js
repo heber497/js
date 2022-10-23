@@ -109,12 +109,12 @@ fetch("https://634728d3db76843976a77095.mockapi.io/articulos")
         text: `Agregaste ${producto.nombre} al carrito`,
         duration: 2000,
         close: true,
-        gravity: "top", // `top` or `bottom`
+        gravity: "bottom", // `top` or `bottom`
         position: "right", // `left`, `center` or `right`
         stopOnFocus: true, // Prevents dismissing of toast on hover
         style: {
           color: "black",
-          background: "linear-gradient(to right, #dddddd, #d2d2d2)",
+          background: "linear-gradient(to right, #dddddd, #5564eb)",
         },
       }).showToast();
     }

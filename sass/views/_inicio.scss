@@ -12,9 +12,10 @@ main {
   align-items: center;
 
   .imgMain {
-    padding: $espacio-medio;
     display: flex;
     flex: 1 1 50%;
+    border: 0;
+    box-shadow: 0px 2px 32px rgb(119, 119, 119);
   }
 
   .texto {
@@ -39,6 +40,16 @@ main {
     }
   }
 }
+.titulo {
+  display: flex;
+  flex-direction: row;
+  font-family: $titulo;
+  font-size: $texto-pequenio;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: $espacio-medio;
+}
 
 .cards {
   display: flex;
@@ -50,6 +61,8 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    border: 0;
+    box-shadow: 0px 2px 32px rgb(119, 119, 119);
     // flex-basis: 30%;
     // flex-grow: 1;
     // flex-shrink: 1;
@@ -64,6 +77,11 @@ main {
         font-family: $titulo;
         font-size: $texto-medio;
         color: $color-texto;
+      }
+      .box__texto {
+        font-family: $texto;
+        font-size: $texto-base;
+        color: $alternativo;
       }
       .caracteristicas {
         display: none;
